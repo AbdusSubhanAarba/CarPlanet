@@ -270,7 +270,7 @@ function Header({ activePage, navigate }) {
 function Hero({ navigate }) {
   return (
     <section className="relative overflow-hidden bg-white">
-      <div className="absolute -right-40 -top-40 h-96 w-96 rounded-full bg-red-100 blur-3xl" />
+      <div className="absolute -right-32 top-20 hidden h-72 w-72 rounded-full bg-red-100 blur-3xl sm:block" />
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-20">
         <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-red-200 bg-red-50 px-4 py-2 text-sm font-bold text-red-700"><TrendingUp size={16} /> Marketplace + car communities</div>
